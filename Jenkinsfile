@@ -24,7 +24,7 @@ pipeline {
 
         stage ("Deployin to tomcat") {
             steps {
-                sh 'cp $WORKSPACE/Pipeline_Job/petadata/target/*.war /root/apache-tomcat-9.0.78/webapps'
+                sh 'cp $WORKSPACE/target/*.war /root/apache-tomcat-9.0.78/webapps'
 		sh 'cd /root/apache-tomcat-9.0.78/bin && sh ./startup.sh'
             }
         }
