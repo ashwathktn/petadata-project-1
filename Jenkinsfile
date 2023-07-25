@@ -5,7 +5,7 @@ pipeline {
 
         stage ("Getting Souce Code From Git") {
             steps {
-                git 'https://github.com/ashwathktn/cicd-sample.git'
+                git 'https://github.com/ashwathktn/petadata-project-1.git'
             }
         }
 //          stage ("SonarQube analysis") {
