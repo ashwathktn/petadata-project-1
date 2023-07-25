@@ -10,7 +10,7 @@ pipeline {
         }
 //          stage ("SonarQube analysis") {
 //             steps {
-//                 withSonarQubeEnv('SonarQube_Scanner') {
+//                  withSonarQubeEnv('SonarQube_Scanner') {
 //                     sh 'mvn clean sonar:sonar'
 //                 }
 //             }
